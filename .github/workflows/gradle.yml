@@ -30,7 +30,7 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew
 
-    # Spring Boot 어플리케이션 Build
+    # Spring Boot 어플리케이션 Build -> build/libs/*.jar 생김
     - name: Build with Gradle Wrapper
       run: ./gradlew build
 
