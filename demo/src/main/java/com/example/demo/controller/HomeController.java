@@ -11,6 +11,13 @@ public class HomeController {
         return "cicd-test";
     }
 
-    // newsdfsdfsdfsdfsdfsdfsdfsdfdssdfsdfsdfdfsdfsdfsdf
+    @GetMapping("/test1")
+    public String test1() {
+        return "cicd-test1";
+    }
 
+    @GetMapping("/test2")
+    public String test2() {
+        return "cicd-test2";
+    }
 }
